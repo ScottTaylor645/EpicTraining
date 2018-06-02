@@ -1,11 +1,33 @@
 body {
-    background-color: aqua;
+    /* Eliminates the white space from the edges of the page. */
+    margin: 0%;
 }
 
 header {
-    color: white;
+    /* Changes the background color and height of the header. */
     background-color: black;
     height: 30px;
+}
+
+
+/* Targets navs inside headers. */
+
+header nav {
+    /* Enables flexbox */
+    display: flex;
+    /* Makes the content in the flexbox horizontal. */
+    flex-direction: row;
+    /* Spreads out the content evenly in the navbar. */
+    justify-content: space-around;
+}
+
+
+/* Gives the characteristics of the links inside the navbar inside the header. */
+
+header nav a {
+    /* Declares the font and color of content. */
+    text-decoration: none;
+    color: white;
 }
 
 footer {
