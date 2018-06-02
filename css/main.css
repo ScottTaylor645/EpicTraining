@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+}
+
+header {
+    color: white;
+    background-color: black;
+    height: 30px;
+}
+
+footer {
+    display: block;
+}
