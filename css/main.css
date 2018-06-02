@@ -1,6 +1,13 @@
 body {
     /* Eliminates the white space from the edges of the page. */
     margin: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Sets the background to be center */
+    background-position: center center;
+    /* Sets an image as the background. */
+    background-image: url("../img/Darius.png");
+    color: cornsilk;
 }
 
 header {
@@ -32,4 +39,33 @@ header nav a {
 
 footer {
     display: block;
+    color: blanchedalmond;
+    position: sticky;
+}
+
+
+/* Targets any elements with the contact id */
+
+#Contact {
+    text-align: center;
+}
+
+
+/* Targets any element with the about id */
+
+#About {
+    /* Sets the height to value of the monitor divided by 2 */
+    height: 50vh;
+    text-align: center;
+    /* sets the padding for top and bottom at 0 and left and right at 12.5% */
+    padding: 0 12.5%;
+}
+
+
+/* Targets any element with the program id */
+
+#Programs {
+    height: 50vh;
+    text-align: center;
+    padding: 0 12.5%;
 }
