@@ -16,6 +16,17 @@ header {
     height: 30px;
 }
 
+h1 {
+    text-align: center;
+    color: firebrick;
+}
+
+img {
+    /* changes the characteristics of the img */
+    border: 3px solid white;
+    margin: 20px;
+}
+
 
 /* Targets navs inside headers. */
 
