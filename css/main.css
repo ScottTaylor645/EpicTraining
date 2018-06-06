@@ -1,7 +1,14 @@
 body {
     /* Eliminates the white space from the edges of the page. */
     margin: 0%;
-    background-size: cover;
+    color: brown;
+    background-color: darkgrey;
+}
+
+#hero {
+    min-height: 100vh;
+    background-size: 100vh 100vw;
+    background-color: black;
     background-repeat: no-repeat;
     /* Sets the background to be center */
     background-position: center center;
@@ -12,7 +19,6 @@ body {
 
 header {
     /* Changes the background color and height of the header. */
-    background-color: black;
     height: 30px;
 }
 
