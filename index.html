@@ -33,11 +33,30 @@
     </div>
 
     <div id="Contact">
-        <form action="#">
-            <label for="Email">Email</label>
-            <input type="email" name="Email">
-            <input type="submit">
+        <form name="frm" method="POST" action="thankyou.htm">
+            Email: <input type="text" name="email" placeholder="Enter Email Address" />
+            <br/>
+            <input type="submit" value="submit" onclick="return val();" />
+            <input type="reset" value="reset" />
         </form>
+        <script type="text/javascript">
+            function val() {
+                if (frm.email.value == "") {
+                    alert("Please enter the email");
+                    frm.email.focus();
+                    return false;
+                }
+                var reg = /^([A-Za-z0-9_\-\.])+\@ ( [A-Za-z0-9_\-\.])+\.([A-Za-z] {2,4})$/;
+
+                if (reg.test(frm.email.value) == false) {
+                    alert('Invalid email address');
+                    frm.email.focus();
+                    return false;
+                }
+
+                return true;
+            }
+        </script>
     </div>
 
 
