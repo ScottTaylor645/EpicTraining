@@ -2,7 +2,7 @@
 
 ## Description
 ```
-A brief description of your project
+A fitness website dedicated to individuals that are looking to get into the best shape of their lifes.
 
 ```
 
@@ -29,3 +29,12 @@ The javascript functions I created are:
 .. what function does ex( animate() is used to move the elements in the info div across the screen)
 
 ```
+ <!-- display: flex;
+    /* Makes the content in the flexbox horizontal. */
+    flex-direction: row;
+    /* Spreads out the content evenly in the navbar. */
+    justify-content: space-around; -->
+
+     <!-- /* Declares the font and color of content. */
+    text-decoration: none;
+    color: white; -->

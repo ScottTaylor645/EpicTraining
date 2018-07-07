@@ -5,55 +5,79 @@
     <title>Epic Training</title>
     <!-- This line of code links the stylesheet for the css files -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div id="hero">
-        <header>
-            <nav>
-                <a href="#About">About</a>
-                <a href="#Program">Programs</a>
-                <a href="#Contact">Contact</a>
-            </nav>
-        </header>
+        <!-- <div class="container"> -->
+        <nav class="site-nav">
+            <!-- <div class="menu-toggle">
+                <div class="hamburger"></div> -->
+            <ul>
+                <li><a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Programs">Programs</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <span id="open" class="open" onclick="openNav()">&#9776</span>
     </div>
+
 
     <h1 style="font-size: 60px;"><em>Epic Training</em></h1>
 
-
-    <img src="img/Deadlift1.jpeg" width="250px" height="250px" alt="Deadlifting Form" />
-
     <div id="About">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed minima incidunt fugiat assumenda voluptate! Voluptatibus maxime, libero minima non cupiditate nihil, quisquam magni molestiae debitis iste officia, quis atque nobis.</p>
+
+        <p>About</p>
+
+        <p>Darius"Zilla" Ramsey, based out of Louisville, Ky. I am the owner and operator of Epic Training. I have played football at St. Xavier H.S. and proudly represent the the Alumni of the Garnet and Gold Florida State Seminoles. A little background
+            information about myself is I obtained my bachelors in Exercise Science and Sports Nutrition in 2007. Here at Epic Training we offer elite level speed, agility, and skill-set training for athletes of all levels as well as specialized strength
+            training sessions one on one and/or small groups.</p>
     </div>
 
     <div id="Programs">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et leo a ex venenatis varius vel eget dolor. Nam a euismod elit. Nunc sem erat, varius id dui eu, egestas sagittis sapien. Duis scelerisque malesuada iaculis. Mauris est mi, laoreet
-            eget dignissim vel, mollis quis sapien. Aliquam erat volutpat. Duis varius suscipit felis, vitae egestas purus bibendum venenatis. In euismod massa mi, id laoreet dui cursus ac. Morbi aliquet metus et tortor porta, sed semper leo tempor. Cras
-            viverra arcu dui, at consequat lacus facilisis eu. Praesent tempor pharetra magna, id interdum augue elementum in.</p>
+
+        <p>Programs</p>
+
+        <p>NFL Combine Traing Sessions: $TBD</p>
+
+        <p>Personal Training Sessions: First sessiion is Free, $100 per week for 3 sessions.</p>
+
+        <p>Group Person Training Sessions: $TBD</p>
+        </br>
     </div>
 
     <div id="Contact">
 
-
-        <form id="email_form" method="get" action="" onsubmit="javascript:return validate('email_form','email');">
-            Email: <input type="text" id="email" name="mail" placeholder="Enter Email Address" />
-            <input type="submit" value="submit" />
-            <input type="reset" value="reset" />
-            <br/>
-
-
-        </form>
+        <p>Please direct all inquires to the link provided below and a staff member will contact you to answer all you questions and needs, Thank you.</p>
     </div>
 
     <footer>
         <p>Contact Information: <a href="mailto:#">Da_Swoleness@justplaying.com</a></p>
+
         <p>&#169; Darius "Zilla" Ramsey's Epic Traning 2018</p>
     </footer>
 
     <p><strong>Note:</strong> This footer is not supported in Internet Explorer 9 and/or earlier versions.</p>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
     <!-- This line of code links the javascript file in JS folder to the html -->
     <script type="text/javascript" src="js/app.js"></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("open").style.display = "none";
+            document.getElementById("nav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("nav").style.width = "0";
+            document.getElementById("open").style.display = "block";
+        }
+    </script>
 </body>
 
 </html>
