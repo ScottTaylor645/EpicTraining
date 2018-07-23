@@ -1,4 +1,4 @@
-# CodeLou_FrontEnd
+# EpicTraining
 
 ## Description
 ```
@@ -12,10 +12,21 @@ A fitness website dedicated to individuals that are looking to get into the best
 ```
 The class(es) I created are:
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
+1. .menu-toggle>ul
 
-2.
+Gives the characteristics of the links inside the navbar inside the header.
+
+2. #hero
+
+Gives the styling charateristics of the hero
+
+3. #Contact
+
+Targets any elements with the contact id 
+
+4. @media
+
+Allows for the content of the website to be displayed seemlessly across all platforms.
 
 ```
 
@@ -25,16 +36,7 @@ The class(es) I created are:
 ```
 The javascript functions I created are:
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
+1. toggleClass('hidden')
+This click event function allows my navbar to become hidden into a hamburger menu when the user is viewing the site on a mobile device.  
 
 ```
- <!-- display: flex;
-    /* Makes the content in the flexbox horizontal. */
-    flex-direction: row;
-    /* Spreads out the content evenly in the navbar. */
-    justify-content: space-around; -->
-
-     <!-- /* Declares the font and color of content. */
-    text-decoration: none;
-    color: white; -->
