@@ -101,8 +101,10 @@ footer {
     height: auto;
     font-size: 20px;
     text-align: center;
+    border-bottom: 4px solid #CEB888;
     padding-top: 1em;
     padding-bottom: 5em;
+
 }
 /* === Media Queries === */
 /* Gives the Characteristics of the toggle menu in the media queries */
